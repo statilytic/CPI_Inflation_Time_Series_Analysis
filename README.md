@@ -8,7 +8,10 @@ The aim of this project is to analyse South African CPI and inflation rate data 
 
 The data was obtained from [StatsSA](http://www.statssa.gov.za/) and is publicly available in PDF format. It consists of:  
 - Monthly CPI indices from 1980 to 2025  
-- Inflation rates from 1911 to 2025 for each month  
+- Inflation rates from 1911 to 2025 for each month
+
+![Average Annual CPI Indices](images/ave_cpi_indices.png)
+![Average Annual Inflation Rate](images/ave_inflation_rates.png)
 
 Data preprocessing steps included:  
 - Converting the PDF to CSV format  
@@ -17,9 +20,6 @@ Data preprocessing steps included:
 - Handling missing values  
 - Converting values to float (replacing decimal commas with decimal points)  
 - Transforming data from wide to long format for time series analysis
-
-![Average Annual CPI Indices](images/ave_cpi_indices.png)
-![Average Annual Inflation Rate](images/ave_inflation_rates.png)
 
 ## Tools
 - Python 
