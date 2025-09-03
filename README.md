@@ -30,10 +30,10 @@ Data preprocessing steps included:
 ## Insights
 
 ### CPI Analysis:
-Both the Prophet and SARIMAX(1,1,1)(0,1,1)[12] models provide reliable forecasts of CPI trends, capturing long-term patterns and seasonal dynamics. However, the SARIMAX model outperforms Prophet in terms of predictive accuracy. While Prophet achieves an R² of 0.74, an MAE of approximately 4.34, and a MAPE of around 4%, the SARIMAX model attains a much higher R² of 0.987, with lower errors (MAE ≈ 0.96, MAPE ≈ 1.1%). This indicates that SARIMAX more closely matches the actual CPI values and produces more precise forecasts, making it the preferred choice for accurate short- and medium-term CPI prediction.
+Both Prophet and SARIMAX provide reliable CPI forecasts, but SARIMAX is more accurate and closely matches the actual values, making it the preferred model for short and medium term predictions.
 
 ### Inflation Rate Analysis:
-While the model used in Prophet captures long-term historical patterns in the inflation rate, its predictive performance on recent data is less accurate, as actual values deviate from the forecast. Further analysis of the stationarity of the series, along with appropriate transformations or alternative modelling approaches, can be undertaken to improve the accuracy and robustness of the results.
+While the model used in Prophet captures long term historical patterns in the inflation rate, its predictive performance on recent data is less accurate, as actual values deviate from the forecast. Further analysis of the series along with appropriate transformations or alternative modelling approaches can be undertaken to improve the accuracy and robustness of the results.
 
 ## Project Report
 [Download the project report](CPI_Inflation_Project.pdf)
