@@ -18,8 +18,8 @@ Data preprocessing steps included:
 - Converting values to float (replacing decimal commas with decimal points)  
 - Transforming data from wide to long format for time series analysis
 
-![Average Annual CPI Indices](images/ave_cpi_indices)
-![Average Annual Inflation Rate](images/ave_inflation_rates)
+![Average Annual CPI Indices](images/ave_cpi_indices.png)
+![Average Annual Inflation Rate](images/ave_inflation_rates.png)
 
 ## Tools
 - Python 
